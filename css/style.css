@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif; }
+
+#logo {
+  background-color: #5F1314; }
+
+.header {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between; }
+
+.nlogo {
+  padding-top: 7%;
+  margin-left: 0.1%; }
+
+/*********===== 2. NAVIGATION *********===== */
+nav {
+  display: block;
+  width: 100%; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  top: 0.5em;
+  width: 100%; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+  padding: 14px 14px;
+  text-decoration: none; }
+
+/*********===== END 2. NAVIGATION *********===== */
+.datum {
+  text-align: right;
+  margin-right: 5%; }
+
+.flex {
+  width: 100%; }
+
+.images {
+  width: 25%;
+  height: 30%; }
+
+.pt {
+  width: 25%;
+  margin-top: -3%;
+  background-color: black;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
