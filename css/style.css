@@ -43,17 +43,39 @@ li a {
   text-align: right;
   margin-right: 5%; }
 
-.flex {
-  width: 100%; }
+.flexcontainer {
+  border: 2px solid black;
+  /* align-items: center; */ }
 
-.images {
-  width: 25%;
-  height: 30%; }
+.image1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.fleim {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 2px solid yellow; }
 
 .pt {
-  width: 25%;
-  margin-top: -3%;
+  position: absolute;
+  width: 300px;
   background-color: black;
-  color: white; }
+  color: white;
+  margin-top: -5%;
+  margin-left: 1.5px; }
+
+.bannerright {
+  margin-right: 5%; }
+
+.b2 {
+  height: 500px; }
+
+.popular {
+  margin-right: 5.5%;
+  margin-left: 5.5%;
+  border: 2px;
+  background-color: grey; }
 
 /*# sourceMappingURL=style.css.map */

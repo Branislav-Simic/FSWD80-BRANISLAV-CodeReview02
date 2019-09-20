@@ -1,0 +1,107 @@
+* {
+  font-family: sans-serif; }
+
+#logo {
+  background-color: #5F1314; }
+
+.header {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between; }
+
+.nlogo {
+  padding-top: 7%;
+  margin-left: 0.1%; }
+
+/*********===== 2. NAVIGATION *********===== */
+nav {
+  display: block;
+  width: 100%; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  top: 0.5em;
+  width: 100%; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+  padding: 14px 14px;
+  text-decoration: none; }
+
+/*********===== END 2. NAVIGATION *********===== */
+.date{
+  text-align: right;
+}
+.tn {
+        background-color: lightgrey;
+        color: white;
+        padding: 1px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .tn h3 {
+        margin: 5px;
+        margin-left: 7px;
+    }
+
+    /* 3. FIRST MAIN */
+
+.img{
+  border: 2px solid red;
+  position: relative;
+  width: 300px;
+
+}
+
+.text{
+      width: 300px;
+      position: absolute;
+      bottom: 4px;
+    
+      background-color: black;
+      color: white;
+}
+
+.main-group{
+
+}
+
+
+.same{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular{
+
+        margin-top: 20px;
+        margin-left: 7px;
+
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.b2{
+  height: 480px;
+}
+
+/* 3.END  MAIN */
+
+/* 4. SECOND PART */
+
