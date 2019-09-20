@@ -48,17 +48,19 @@ li a {
         padding: 1px;
         margin: 0px;
         margin-bottom: 20px;
+        width: 92%;
+        margin-left: 50px;
     }
 
-    .tn h3 {
+    .tn > h3 {
         margin: 5px;
-        margin-left: 7px;
+        margin-left: 10px;
     }
 
     /* 3. FIRST MAIN */
 
 .img{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
   width: 300px;
 
@@ -85,8 +87,8 @@ li a {
 }
 
 .popular{
-
-        margin-top: 20px;
+        background-color: lightgrey;
+        /* margin-top: 20px; */
         margin-left: 7px;
 
 }
@@ -103,5 +105,60 @@ li a {
 
 /* 3.END  MAIN */
 
+.middle{
+  text-align: center;
+  margin: 10px;
+}
+
+
 /* 4. SECOND PART */
+
+.pic{
+  /* border: 2px solid red; */
+  position: relative;
+  width: 400px;
+}
+
+.txt{
+      width: 400px;
+      position: absolute;
+      bottom: 4px;
+    
+      background-color: black;
+      color: white;
+}
+
+
+.same2{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.main-second{
+  /* width: 1000px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.foot{
+  height: 200px;
+  background-color: black;
+
+}
+
+.lp{
+
+  padding-top: 100px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.htcv{
+  color: white;
+  padding-bottom: 150px;
+}
 
