@@ -1,110 +1,232 @@
-*
-	font-family: sans-serif
+* 
+  font-family: sans-serif
 
 #logo
-	background-color: #5F1314
+  background-color: #5F1314
 
-// 1.HEADER
+.header
+  padding: 1%
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
 
-.header	
-	padding: 1%
-	display: flex 
-	justify-content: space-between
-
-.header img
-	// margin-left: 8%
 
 .nlogo
-	padding-top: 7%
-	margin-left: 0.1%
+  padding-top: 7%
+  margin-left: 0.1%
 
-
-.banner  
-	// margin-right: 40%
-	// margin-bottom: 2%
-
-// End 1: HEADER
-
-/*********===== 2. NAVIGATION *********=====*/
+/*********===== 2. NAVIGATION *********===== */
 nav 
-	display: block
-	width: 100%
-
+  display: block
+  width: 100%
 
 ul 
-	list-style-type: none
-	margin: 0 /*sets all the margin properties*/
-	padding: 0 /*used to generate space around content*/
-	overflow: hidden /*whether to clip content or to add scrollbars */
-	background-color: black
-	top: 0.5em
-	width: 100%
-      
+  list-style-type: none
+  margin: 0
+  padding: 0
+  overflow: hidden
+  background-color: black
+  top: 0.5em
+  width: 100%
 
 li 
-	float: left
-
+  float: left
 
 li a 
-	display: block
-	color: white
-	text-align: center
-	font-size: 15pt
-	padding: 14px 14px
-	text-decoration: none
-	// text-transform: uppercase
-	// font-weight: bold
-/*********===== END 2. NAVIGATION *********=====*/
-
-.datum
-	text-align: right
-	margin-right: 5%
+  display: block
+  color: white
+  text-align: center
+  font-size: 15pt
+  padding: 14px 14px
+  text-decoration: none
 
 
-// 3. MAIN
+/*********===== END 2. NAVIGATION *********===== */
+.date
+  text-align: right
 
-.flexcontainer
-	border: 2px solid black
-	/* align-items: center; */
-	// height: 1000px
-	// display: flex
-	// justify-content: space-around
-	// flex-direction: row
+.tn 
+  background-color: lightgrey
+  color: white
+  padding: 1px
+  margin: 0px
+  margin-bottom: 20px
+  width: 92%
+  margin-left: 50px
+  
 
-
-
-
-.image1 
-	display: flex
-	flex-wrap: wrap
-	justify-content: space-around
-		
-
-
-.fleim
-	position: relative
-	width: 300px
-	height: 200px
-	border: 2px solid yellow
-
-.pt
-	position: absolute 
-	width: 300px
-	background-color: black
-	color: white
-	margin-top: -5%
-	margin-left: 1.5px
+.tn > h3 
+  margin: 5px
+  margin-left: 10px
 
 
-.bannerright
-	margin-right: 5%
+    /* 3. FIRST MAIN */
 
-.b2
-	height: 500px
+.img
+  /* border: 2px solid red; */
+  position: relative
+  width: 300px
+
+
+.text
+  width: 300px
+  position: absolute
+  bottom: 4px
+  background-color: black
+  color: white
+
+
+
+
+
+.same
+  width: 1000px
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
 
 .popular
-	// width: 80%
-	margin-right: 5.5%
-	margin-left: 5.5%
-	border: 2px
-	background-color: grey
+  background-color: lightgrey
+  /* margin-top: 20px; */
+  margin-left: 7px
+
+
+.main
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+
+
+.b2
+  height: 480px
+
+
+/* 3.END  MAIN */
+
+.middle
+  text-align: center
+  margin: 10px
+
+
+
+/* 4. SECOND PART */
+
+.pic
+  /* border: 2px solid red; */
+  position: relative
+  width: 400px
+
+
+.txt
+  width: 400px
+  position: absolute
+  bottom: 4px
+  background-color: black
+  color: white
+
+
+
+.same2
+  width: 1000px
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  margin: 20px
+
+.main-second
+  /* width: 1000px; */
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+
+
+.container
+  background-color: black
+  color: white
+  height: 200px
+  text-align: center
+  position: relative
+
+
+
+
+/* Bottom left text */
+.bottom-center 
+  position: absolute
+  bottom: 0px
+  left: 40%
+
+
+
+/* Top left text */
+.top-left 
+  position: absolute
+  top: 8px
+  left: 16px
+
+
+
+
+
+
+/* Centered text */
+.centered-right 
+  position: absolute
+  top: 50%
+  left: 90%
+  transform: translate(-50%, -50%)
+
+
+/* artikel.html Animation */
+
+.train
+
+  background-color: black
+  margin-top: 250px
+  margin-left: 500px
+  height: 100px
+  width: 350px
+  -webkit-transition: width 5s,height 5s, -webkit-transform 3s
+  transition: width 3s, height 3s, transform 3s
+  color: white
+  text-align: center
+  padding: 40px
+  font-weight: bold
+
+
+.train:hover
+  background: blue
+  height: 200px
+  width: 400px
+  -webkit-transform: rotate(180deg)
+  transform: rotate(180deg)
+  color: black
+
+
+
+
+
+
+@media screen and (max width:480px) 
+
+  .container
+    text-align: center
+  
+
+  .m 
+    flex-wrap: wrap
+  
+
+  .banner 
+    display: none
+
+  .bannerright
+    display: none
+
+  .middle
+    display: none
+  
+  .bannerright2
+    display: none
+    
