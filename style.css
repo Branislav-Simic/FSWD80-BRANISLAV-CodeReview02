@@ -7,7 +7,9 @@
 .header {
   padding: 1%;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 .nlogo {
   padding-top: 7%;
@@ -84,6 +86,7 @@ li a {
   width: 1000px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .popular{
@@ -96,6 +99,7 @@ li a {
 .main{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
 }
 
@@ -161,4 +165,44 @@ li a {
   color: white;
   padding-bottom: 150px;
 }
+
+.container{
+background-color: black;
+color: white;
+height: 200px;
+text-align: center;
+position: relative;
+}
+
+
+
+/* Bottom left text */
+.bottom-center {
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+
+
+
+/* Centered text */
+.centered-right {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+
+
 
